@@ -1,9 +1,13 @@
 {
   "manifest_version": 3,
   "name": "一键直达 Launcher",
-  "version": "1.1.0",
-  "description": "点一下图标直接打开你设置的链接，支持自定义多个链接和图标",
-  "permissions": ["tabs", "storage", "contextMenus"],
+  "version": "1.2.0",
+  "description": "点一下图标直接打开你设置的链接，支持自定义多个链接和图标 (v1.2.0 修复设置页)",
+  "permissions": [
+    "tabs",
+    "storage",
+    "contextMenus"
+  ],
   "background": {
     "service_worker": "background.js"
   },
